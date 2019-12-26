@@ -1,3 +1,167 @@
+/* general properties starts here */
 body{
-    background: blue !important;
+    font-family: 'Roboto', sans-serif;
+}
+.bg-white{
+    background: linear-gradient(90deg, #61234e 0%, #ff5858 100%), #ff5858;
+}
+.trans-btn{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    color: #fff2a3;
+    background: rgba(239,239,239,0.13);
+    border: none;
+    padding: 20px 35px;
+}
+.trans-btn:hover{
+    background: transparent;
+}
+.submit-btn, .clear-btn{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    border: none;
+    padding: 15px 30px;
+}
+.submit-btn{
+    background: #61234e;
+    color: #eee;
+    margin-right: 10px;
+}
+.submit-btn:hover{
+    color: #eee;
+}
+.services,
+.projects,
+.resume,
+footer,
+.about,
+.services-page,
+.blog-page,
+.post-content,
+.post-edit,
+.dashboard,
+.post-create
+{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.services h2,
+.projects h2,
+.resume h2,
+footer h2
+{
+    font-size: 48px;
+}
+.services p, .projects p, .resume p, footer p{
+    font-size: 16px;
+}
+/* general properties ends here */
+
+/* banner starts here */
+.banner{
+    background: linear-gradient(90deg, #61234e 0%, #ff5858 100%), #ff5858;
+    min-height: 600px;
+    padding: 150px 0 0 0;
+    margin-top: -70px;
+}
+.banner h1{
+    font-size: 48px;
+    text-transform: capitalize;
+    color: #efefef;
+}
+.banner p{
+    color: #efefef;
+    font-size: 20px;
+    font-weight: 300px;
+}
+/* banner ends here */
+
+/* passion starts here */
+.passion{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.passion h2{
+    color: #212121;
+    font-size: 46px;
+}
+.passion p{
+    color: #3a3a3a;
+    font-size: 16px;
+}
+/* passion ends here */
+
+/* services starts here */
+.services, footer{
+    background: #212121;
+}
+.services h2{
+    color: #eee;
+    margin-bottom: 70px;
+}
+.services h3{
+    color: #fff2a3;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.services p{
+    color: #ddd;
+}
+/* services ends here */
+
+/* projects starts here */
+.red-btn{
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #212121;
+    background: transparent;
+    border: 1px solid #ff5858;
+    padding: 20px 30px;
+    margin-top: 50px;
+    border-radius: 0;
+}
+.red-btn:hover{
+    background: transparent;
+    color: #212121;
+    border: 1px solid #ff5858;
+}
+/* projects ends here */
+
+/* footer starts here */
+footer h2{
+    color: #eee;
+    margin-bottom: 30px;
+}
+footer p{
+    color: #6d6d6d;
+    font-size: 12px;
+}
+/* footer ends here */
+
+/*
+======================
+*** PAGES ***
+======================
+*/
+.dashboard .card-header span{
+    line-height: 2.6;
+}
+.dashboard .card-header a{
+    float: right;
+    border: 2px solid #61234e;
+}
+.dashboard .edit-btn{
+    float: right;
+}
+.blog-page .card{
+    margin-bottom: 20px;
 }

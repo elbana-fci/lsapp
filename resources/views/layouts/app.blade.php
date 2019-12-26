@@ -14,7 +14,7 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -22,11 +22,9 @@
 <body>
     <div id="app">
         @include('inc.navbar')
-        @include('inc.header')
-        <div class="container">
             @include('inc.messages')
             @yield('content')
-        </div>
+        @include('inc.footer')
     </div>
 
     <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
