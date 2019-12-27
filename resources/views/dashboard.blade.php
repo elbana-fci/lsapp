@@ -8,7 +8,7 @@
                 <div class="card">
                     <div class="card-header">
                         <span>Dashboard</span>
-                        <a href="/lsapp/public/posts/create" class="btn">Create post</a>
+                        <a href="/lsapp/public/posts/create" class="btn btn-default">Create post</a>
                     </div>
                     <div class="card-body">
                         @if (session('status'))

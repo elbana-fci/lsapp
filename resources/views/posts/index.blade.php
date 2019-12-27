@@ -8,7 +8,7 @@
             @foreach ($posts as $post)
             <div class="card">
                 <div class="card-header">
-                    <h5><a href="/lsapp/public/posts/{{$post->id}}">{{$post->title}}</a></h5>
+                    <h5 class="question"><a href="/lsapp/public/posts/{{$post->id}}">{{$post->title}}</a></h5>
                 </div>
                 <div class="card-body">
                     <p class="lead">{{$post->body}}</p>

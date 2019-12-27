@@ -157,14 +157,53 @@ footer p{
 }
 .dashboard .card-header a{
     float: right;
-    border: 2px solid #61234e;
+    font-size: 12px;
+    color: #666;
+    background:#fff;
+    border: 1px solid #f1f1f1;
 }
 .dashboard .edit-btn{
     float: right;
+    color: #61234e;
+    font-size: 12px;
+}
+.dashboard th{
+    font-weight: 700;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.dashboard .card-header, .dashboard .card-body{
+   padding: 0.75rem;
+}
+.blog-page{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.blog-page h1, .dashboard h5{
+    font-size: 18px;
+    font-weight: 300;
+    color:#666;
 }
 .blog-page h1{
-    font-size: 22px;
+    margin-bottom: 1.5rem;
 }
 .blog-page .card{
     margin-bottom: 20px;
+}
+.blog-page .question{
+    font-weight: 700;
+    font-size: 14px;
+}
+.blog-page .question a{
+    color: #3a3a3a;
+}
+.blog-page .card p{
+    font-size: 14px;
+}
+.blog-page .card small{
+    font-size: 11px;
+    color: #999;
+}
+.profile-header{
+    background: #777;
 }
