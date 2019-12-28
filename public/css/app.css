@@ -14666,7 +14666,100 @@ footer p {
   color: #999;
 }
 
+.profile {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
 .profile-header {
-  background: #777;
+  width: 100%;
+  background: #f4f4f4;
+  padding: 7px;
+  border-radius: 3px;
+}
+
+.profile-links {
+  margin-top: 7px;
+}
+
+.profile-links ul,
+.projects ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 0px;
+  margin: 0;
+  background: #e1e1e1;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.profile-links ul li,
+.projects ul li {
+  float: left;
+  margin-right: 20px;
+}
+
+.profile-links ul li a,
+.projects ul li a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile-uname,
+.profile-email {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #777;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.profile-body {
+  margin-top: 30px;
+}
+
+.profile-body .card-body {
+  font-size: 12px;
+}
+
+.project-group {
+  height: 92px;
+}
+
+.projects ul {
+  background: #fff;
+  padding-left: 0;
+}
+
+.projects ul li {
+  border-right: 1px solid #ced4da;
+  margin-right: 0;
+  padding: 20px 30px;
+}
+
+.projects ul li:hover {
+  box-shadow: 0 4px 10px #ced4da;
+  border: none;
+  border-bottom: 2px solid #ff5858;
+}
+
+.projects ul li a {
+  font-weight: normal;
+  color: #999;
+}
+
+.project-group {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #ced4da;
 }
 
