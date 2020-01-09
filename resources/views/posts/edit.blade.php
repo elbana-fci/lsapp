@@ -14,7 +14,8 @@
                 {{Form::textarea('body', $post->body, ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Body Text'])}}
             </div>
             {{Form::hidden('_method', 'PUT')}}
-            {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
+            {{Form::submit('Submit', ['class' => 'btn btn-primary submit-btn'])}}
+            {{Form::reset('Clear', ['class' => 'btn btn-primary clear-btn'])}}
         {!! Form::close() !!}
     </div>
 </div>

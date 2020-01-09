@@ -9,8 +9,10 @@
         <img src="images/pexels-photo-196644.jpeg" alt="" width="100%" height="300px">
       </div>
       <div class="col-md-6">
-        <h2>My passion and focus is UI/UX Design.</h2>
-        <p>Creating products that provide meaningful and relevant experiences to users. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability and function.</p>
+        <div class="passion-cont">
+          <h2>My passion and focus is UI/UX Design.</h2>
+          <p>Creating products that provide meaningful and relevant experiences to users. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability and function.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -45,7 +47,7 @@
   <div class="container">
   <h2>Here are some of my projects.</h2>
   <p>Creating products that provide meaningful and relevant experiences to users. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability and function.</p>
-    <div class="row">
+    <div class="row projects-cont">
       <div class="col-md-4">
         <img src="images/pexels-photo-man.jpeg" alt="" width="100%" height="500px">
       </div>

@@ -14421,32 +14421,33 @@ body {
 }
 
 .trans-btn {
-  margin-top: 30px;
-  font-size: 14px;
+  margin-top: 20px;
+  font-size: 12px;
   font-weight: 300px;
   text-transform: uppercase;
   letter-spacing: 2.4px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  color: #fff2a3;
-  background: rgba(239, 239, 239, 0.13);
-  border: none;
+  background: transparent;
   padding: 20px 35px;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .trans-btn:hover {
   background: transparent;
+  color: #fff2a3;
+  border: 1px solid #fff2a3;
 }
 
 .submit-btn,
 .clear-btn {
-  margin-top: 30px;
-  font-size: 14px;
+  margin-top: 20px;
+  font-size: 12px;
   font-weight: 300px;
   text-transform: uppercase;
   letter-spacing: 2.4px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
   border: none;
-  padding: 15px 30px;
+  padding: 12px 24px;
 }
 
 .submit-btn {
@@ -14461,7 +14462,6 @@ body {
 
 .services,
 .projects,
-.resume,
 footer,
 .about,
 .services-page,
@@ -14470,8 +14470,8 @@ footer,
 .post-edit,
 .dashboard,
 .post-create {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .services h2,
@@ -14490,26 +14490,35 @@ footer p {
 
 /* general properties ends here */
 
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #eee !important;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 /* banner starts here */
 
 .banner {
   background: -webkit-gradient(linear, left top, right top, from(#61234e), to(#ff5858)), #ff5858;
   background: linear-gradient(90deg, #61234e 0%, #ff5858 100%), #ff5858;
-  min-height: 600px;
-  padding: 150px 0 0 0;
-  margin-top: -70px;
+  padding: 100px 0 200px 0;
 }
 
 .banner h1 {
-  font-size: 48px;
+  font-size: 46px;
   text-transform: capitalize;
-  color: #efefef;
+  color: #fff;
 }
 
 .banner p {
-  color: #efefef;
-  font-size: 20px;
-  font-weight: 300px;
+  color: #e8e8e8;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 /* banner ends here */
@@ -14559,6 +14568,10 @@ footer {
 
 /* projects starts here */
 
+.projects-cont {
+  padding-top: 30px;
+}
+
 .red-btn {
   font-size: 11px;
   text-transform: uppercase;
@@ -14578,6 +14591,10 @@ footer {
 }
 
 /* projects ends here */
+
+.resume {
+  padding-bottom: 130px;
+}
 
 /* footer starts here */
 
@@ -14618,7 +14635,7 @@ footer p {
 }
 
 .dashboard th {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
   vertical-align: middle;
 }
