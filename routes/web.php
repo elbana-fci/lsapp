@@ -17,6 +17,19 @@ Route::get('/users/{id}', function ($id) {
 });
 */
 
+/*Route::group(['middleware' => ['auth']], function(){
+    Route::get('/user', 'DemoController@userDemo')->name('user');
+
+});*/
+
+Route::get('/admin', function(){
+    return 'you are admin';
+})->middleware(['auth', 'auth.admin']);
+
+Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware(['auth', 'auth.admin'])->group(function(){
+    Route::resource('/users', 'UserController', ['except' => ['show', 'create', 'store']]);
+});
+
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');

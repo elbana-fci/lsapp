@@ -24,6 +24,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/lsapp/public/posts">Blog</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('admin.users.index')}}">Manage Users</a>
+                </li>
             </ul>
 
             <!-- Right Side Of Navbar -->
