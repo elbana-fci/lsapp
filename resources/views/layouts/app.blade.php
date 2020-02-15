@@ -21,15 +21,18 @@
 </head>
 <body>
     <div id="app">
+        @include('inc.social')
         @include('inc.navbar')
             @include('inc.messages')
             @yield('content')
         @include('inc.footer')
     </div>
 
-    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
-    <script>
-        CKEDITOR.replace( 'article-ckeditor' );
-    </script>
+    <!--
+        <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace( 'article-ckeditor' );
+        </script>
+    -->
 </body>
 </html>

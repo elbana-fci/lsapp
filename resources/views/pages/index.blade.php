@@ -49,13 +49,13 @@
   <p>Creating products that provide meaningful and relevant experiences to users. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability and function.</p>
     <div class="row projects-cont">
       <div class="col-md-4">
-        <img src="images/pexels-photo-man.jpeg" alt="" width="100%" height="500px">
+        <img src="images/PAT.png" alt="" width="100%" height="500px">
       </div>
       <div class="col-md-4">
-        <img src="images/pexels-photo-palmtree.jpeg" alt="" width="100%" height="500px">
+        <img src="images/eVisa-min.jpg" alt="" width="100%" height="500px">
       </div>
       <div class="col-md-4">
-        <img src="images/pexels-photo-watch.jpeg" alt="" width="100%" height="500px">
+        <img src="images/LASSI-Index.png" alt="" width="100%" height="500px">
       </div>
     </div>
     <a class="btn btn-primary btn-lg red-btn" href="#" role="button">show more projects</a>

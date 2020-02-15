@@ -11,6 +11,12 @@
                 @endforeach
             </ul>
         @endif
+
+        <div id="app">
+            <articles></articles>
+        </div>
+        
     </div>
 </div>
+
 @endsection
